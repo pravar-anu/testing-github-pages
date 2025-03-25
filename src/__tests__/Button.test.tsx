@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/vitest';
-import Button from '../components/Button';
+import Button from '../components/Button.tsx';
 import { expect, test, vi } from 'vitest';
 
 test('Button renders with correct label', () => {
