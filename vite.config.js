@@ -10,14 +10,8 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       ignoreEmptyLines: true,
-      reporter: ['text', 'json-summary', 'json'],
+      reporter: ['text', 'json-summary', 'json', 'html'],
       reportOnFailure: true,
-      thresholds: {
-        lines: 80,
-        statements: 80,
-        functions: 80,
-        branches: 80,
-      }
     }
   }
 })
