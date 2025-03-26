@@ -22,7 +22,7 @@ jobs:
               run: npm install
 
             - name: Generate Coverage Report
-              run: npx vitest --coverage.enabeled true --coverage.reportOnFailure true
+              run: npx vitest --coverage.enabled true --coverage.reportOnFailure true
 
             - name: Deploy to Github Pages
               uses: peaceiris/actions-gh-pages@v3
