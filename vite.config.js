@@ -9,9 +9,9 @@ export default defineConfig({
     environment: 'jsdom',
     coverage: {
       provider: 'v8',
-      ignoreEmptyLines: true,
-      reporter: ['text', 'json-summary', 'json', 'html'],
-      reportOnFailure: true,
+      // ignoreEmptyLines: true,
+      // reporter: ['text', 'json-summary', 'json', 'html'],
+      // reportOnFailure: true,
     }
   }
 })
